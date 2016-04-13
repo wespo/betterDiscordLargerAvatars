@@ -1,0 +1,35 @@
+.guild-channels ul .channel-voice-states li .avatar-small {
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+}
+
+
+.guild-channels ul .channel-voice-states li span {
+    transform: rotate(90deg);
+    font-size: 0.75em;
+    margin-left:-55px;
+    position: relative;
+    top: 20px;
+}
+
+
+.guild-channels ul .channel-voice-states li .icon-muted
+{
+    width: 0px;
+    overflow: visible;
+    padding-left: 16px;
+    margin-left: -16px;
+    position: relative;
+    top: -30px;
+}
+
+.guild-channels ul .channel-voice-states li .icon-deafened
+{
+    width: 0px;
+    overflow: visible;
+    position: relative;
+    top: -10px;
+    padding-left: 16px;
+    margin-left: -16px;
+}
