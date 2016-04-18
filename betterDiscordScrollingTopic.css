@@ -1,0 +1,12 @@
+/*Chat Topic*/
+.chat>.title-wrap>.topic {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from  { text-indent:  -100% }
+    to    { text-indent: 100% }
+}
