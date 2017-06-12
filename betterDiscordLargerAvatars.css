@@ -1,38 +1,77 @@
-.guild-channels .channel-voice-states li .avatar-small {
+.draggable-3SphXU {
+    height: 106px;
+
+}
+.avatarContainer-303pFz {
+    height: 20px;
+    margin-bottom:-10px;
+
+}
+.avatarDefault-3jtQoc {
     height: 100px;
     width: 100px;
     background-size: 100px 100px;
     border-radius: 10%;
 }
 
+.avatarSpeaking-3teDH6 {
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    border-radius: 10%;    
+}
 
-.guild-channels .channel-voice-states li span {
+
+.nameDefault-1I0lx8 {
     transform: rotate(90deg);
-    font-size: 1vmax;
-    margin-left:-55px;
+    font-size: 10pt;
     position: relative;
-    top: 0px;
+    top: 45px;
+    left: -87px;
     padding-left: 40px;
-    margin-bottom: 37px
+    width:200px;
+    margin-right:-100px;
+}
+.nameSpeaking-3ROx9q {
+    transform: rotate(90deg);
+    font-size: 10pt;
+    position: relative;
+    top: 45px;
+    left: -87px;
+    padding-left: 40px;
+    width:200px;
+    margin-right:-100px;
+}
+
+.nameHovered-28u_Fz {
+    transform: rotate(90deg);
+    font-size: 10pt;
+    position: relative;
+    top: 45px;
+    left: -87px;
+    padding-left: 40px;
+    width:200px;
+    margin-right:-100px;
 }
 
 
-.guild-channels .channel-voice-states li .icon-muted
+.iconSpacing-1WJZFe
 {
+    height: 0px;
     width: 0px;
-    overflow: visible;
-    padding-left: 16px;
-    margin-left: -16px;
+    margin: 0px;
+    left: -15px;
+    top: -5px;
     position: relative;
-    top: -30px;
 }
 
-.guild-channels .channel-voice-states li .icon-deafened
+.icon-1NXYub
 {
-    width: 0px;
+
+}
+
+.icon-33Frxe
+{
+    padding-top: 20px;
     overflow: visible;
-    position: relative;
-    top: -10px;
-    padding-left: 16px;
-    margin-left: -16px;
 }
