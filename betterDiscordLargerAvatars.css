@@ -3,12 +3,23 @@
 
 }
 [class*=avatarContainer-] {
-    height: 20px;
+    height: 200px;
     margin-bottom:-10px;
 
 }
 
-[class*=avatarDefault-] {
+[class*=voiceUser-] {
+    height: 106px;
+    margin-bottom:-10px;
+
+}
+
+[class*=voiceUser-] > *:nth-child(1){
+    height: 120px;
+    margin-top:-15px;
+}
+
+[class*=voiceUser-] > [class*=content-] > [class*=avatar-] {
     height: 100px;
     width: 100px;
     background-size: 100px 100px;
@@ -23,14 +34,14 @@
 }
 
 
-[class*=userDefault-] > *:nth-child(2) {
+[class*=content] > [class*=username-] {
     transform: rotate(90deg);
     font-size: 10pt;
     position: absolute;
-    top: 84px;
-    left: 2px;
+    top: 27px;
+    left: 51px;
     padding-left: 20px;
-    width:200px;
+    width:97px;
     height:30px;
     margin-right:-100px;
 }
@@ -46,7 +57,7 @@
     height:30px;
     margin-right:-100px;
 }
-[class*=nameSpeaking-] {
+[class*=usernameSpeaking-] {
     transform: rotate(90deg);
     font-size: 10pt;
     position: relative;
